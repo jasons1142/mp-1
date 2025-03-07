@@ -38,11 +38,26 @@
                                         <li>Designed user-friendly popup interface using HTML, CSS, and JavaScript</li>
                                     </ul>
                                 </li>
-                                <li><a href = calculator.html>Calculator
+                                <li>Calculator
                                     <ul>
-                                        <li>Engineered a state of the art calculator in HTML, CSS, and Javascript</li>
+                                        <div id="calculator-container">
+                                            <label>Input 1</label>
+                                            <input type="text" id="first-number">
+                                            <label>Input 2</label>
+                                            <input type="text" id="second-number">
+                
+                                        <div id = "calculator-buttons">
+                                            <button onclick="addition()">+</button>
+                                            <button onclick="subtraction()">-</button>
+                                            <button onclick="multiplication()">*</button>
+                                            <button onclick="division()">/</button>
+                                            <button onclick="power()">**</button>
+                                            <button onclick="clearInputs()">Clear</button>
+                                        </div>
+                                            <p id="output"></p>
+                                    </div>
                                     </ul>
-                                </a></li>
+                                </li>
                             </ul>
                         </div>
                     </div>

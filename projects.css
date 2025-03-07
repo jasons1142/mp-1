@@ -25,6 +25,17 @@ header {
     background-color: blue;
 }
 
+#calculator-container {
+    width: 50%;
+    height: 40vh;
+    display: flex; 
+    position: relative;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;      
+    background-color: aqua;
+}
+
 nav {
     width: 30%;
 }
@@ -163,6 +174,17 @@ footer {
     #projects-title{
         text-align: center;
         color: orange;
+    }
+
+    #calculator-container {
+        width: 50%;
+        height: 40vh;
+        display: flex; 
+        position: relative;
+        align-items: center; 
+        justify-content: center;
+        flex-direction: column;      
+        background-color: aqua;
     }
 }
 
