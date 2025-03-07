@@ -157,7 +157,7 @@ footer {
         align-self: center;
         width: 100%;
         margin: 1vh 1vw;
-        font-size: calc(4.25px + 4.25vw);
+        font-size: calc(3.75px + 3.75vw);
     }
 
     #projects-title{
