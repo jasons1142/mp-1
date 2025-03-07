@@ -4,12 +4,12 @@
 }
 
 #references-page-wrapper{
-    width: 100vw;
+    width: 80vw;
     margin: 0 auto;
 }
 
 header {
-    align-items: left;
+    text-align: left;
     display: flex;
     flex-direction: column;
     padding: 1vh 1vw;
@@ -100,7 +100,8 @@ footer {
 
 @media screen and (max-width: 750px) {
     header {
-        align-items: center;
+        text-align: center;
+        margin: auto;
     }
 
      #references-container{
@@ -111,7 +112,6 @@ footer {
 
     nav {
         width: 100%;
-        flex-direction: row;
     }
 
     nav ul{
